@@ -58,7 +58,7 @@ wget -N --tries=2 http://szdg.lpds.sztaki.hu/szdg/stats/host.xml.gz
 echo "Download finished"
 gunzip host.xml.gz
 clamscan host.xml
-echo "Sztaki end"
+echo "SZTAKI end"
 
 echo "WCG start"
 cd ../WCG

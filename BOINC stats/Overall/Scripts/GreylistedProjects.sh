@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "BBC-CPDN start"
 cd ../BBC-CPDN
 wget -N --tries=2 http://bbc.cpdn.org/stats/host.xml.gz
